@@ -33,8 +33,9 @@
     <sup>*</sup><small>Equal Contribution</small>
 </div>
 
+![](./assets/teaser.png)
+
 # Video-T3
 This repo contains official implementation of our paper "Temporal Reasoning Transfer from Text to Video"
 - For the temporal probing analysis, refer to `probing`
 - For training with our textual temporal reasoning data, refer to `t3_sft`
-![](./assets/teaser.png)
