@@ -3,8 +3,11 @@
 <div align="center">
     <a href='https://arxiv.org/pdf/2410.06166'><img src='https://img.shields.io/badge/ArXiv-2410.06166-red'></a>
     <a href='https://video-t3.github.io/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>
-    <a href='https://huggingface.co/datasets/MMInstruction/Video-T3-QA'><img src='https://img.shields.io/badge/🤗_Hugging_Face-Video_T3_Training_Data-green'></a>
-    <a href='https://huggingface.co/datasets/tobiaslee/text_temporal'><img src='https://img.shields.io/badge/🤗_Hugging_Face-Textual_Probing_Data-green'></a>
+    <a href='https://huggingface.co/datasets/MMInstruction/Video-T3-QA'><img src='https://img.shields.io/badge/🤗-Video_T3_Training_Data-green'></a>
+    <a href='https://huggingface.co/datasets/tobiaslee/text_temporal'><img src='https://img.shields.io/badge/🤗-Textual_Probing_Data-green'></a>
+    <a href='https://huggingface.co/datasets/lyx97/t3_probing_data'><img src='https://img.shields.io/badge/🤗-Probing_Videos-green'></a>
+    <a href='https://huggingface.co/MMInstruction/LongVA-7B-Video-T3'><img src='https://img.shields.io/badge/🤗-LongVA_7B_T3-blue'></a>
+    <a href='https://huggingface.co/MMInstruction/Qwen2-VL-72B-Video-T3'><img src='https://img.shields.io/badge/🤗-Qwen2_VL_72B_T3-blue'></a>
 </div>
 
 <div>
