@@ -20,7 +20,7 @@
     <a href='https://scholar.google.com.hk/citations?user=fY69CxIAAAAJ' target='_blank'>Chenxin An<sup>1</sup></a>&emsp;
     <a href='https://leanwang326.github.io/.github.io/' target='_blank'>Lean Wang<sup>2</sup></a>&emsp;
     <a href='https://xusun26.github.io/' target='_blank'>Xu Sun<sup>2</sup></a>&emsp;
-    <a href='https://ikekonglp.github.io/' target='_blank'>Lingpeng Kong<sup>1</sup></a>
+    <a href='https://ikekonglp.github.io/' target='_blank'>Lingpeng Kong<sup>1</sup></a>&emsp;
     <a href='https://leuchine.github.io/' target='_blank'>Qi Liu<sup>1</sup></a>
 </div>
 <div>
@@ -30,5 +30,5 @@
     <sup>3</sup>UCSD
 </div>
 <div align="center">
-    <sup>*</sup>Equal Contribution
+    <sup>*</sup><span style="font-size: 0.8em;">Equal Contribution</span>
 </div>
