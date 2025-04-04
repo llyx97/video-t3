@@ -1,2 +1,31 @@
-# video-t3
-[ICLR 2025] "Temporal Reasoning Transfer from Text to Video", Lei Li, Yuanxin Liu, Linli Yao, Peiyuan Zhang, Chenxin An, Lean Wang, Xu Sun, Lingpeng Kong, Qi Liu
+<h2 align="center"> <a href="https://video-t3.github.io/">Temporal Reasoning Transfer from Text to Video</a></h2>
+
+<div align="center">
+    <a href='https://arxiv.org/pdf/2410.06166'><img src='https://img.shields.io/badge/ArXiv-2410.06166-red'></a>
+    <a href='https://video-t3.github.io/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>
+    <a href='https://huggingface.co/datasets/MMInstruction/Video-T3-QA'><img src='https://img.shields.io/badge/🤗_Hugging_Face-Video_T3_Training_Data-green'></a>
+    <a href='https://huggingface.co/datasets/tobiaslee/text_temporal'><img src='https://img.shields.io/badge/🤗_Hugging_Face-Textual_Probing_Data-green'></a>
+</div>
+
+<div>
+<div align="center">
+    <a href='https://lilei-nlp.github.io/' target='_blank'>Lei Li<sup>1*</sup></a>&emsp;
+    <a href='https://llyx97.github.io/' target='_blank'>Yuanxin Liu<sup>2*</sup></a>&emsp;
+    <a href='https://yaolinli.github.io/' target='_blank'>Linli Yao<sup>2</sup></a>&emsp;
+    <a href='https://veiled-texture-20c.notion.site/Perry-Peiyuan-Zhang-ab24b48621c9491db767a76df860873a' target='_blank'>Peiyuan Zhang<sup>3</sup></a>&emsp;
+    </br>
+    <a href='https://scholar.google.com.hk/citations?user=fY69CxIAAAAJ' target='_blank'>Chenxin An<sup>1</sup></a>&emsp;
+    <a href='https://leanwang326.github.io/.github.io/' target='_blank'>Lean Wang<sup>2</sup></a>&emsp;
+    <a href='https://xusun26.github.io/' target='_blank'>Xu Sun<sup>2</sup></a>&emsp;
+    <a href='https://ikekonglp.github.io/' target='_blank'>Lingpeng Kong<sup>1</sup></a>
+    <a href='https://leuchine.github.io/' target='_blank'>Qi Liu<sup>1</sup></a>
+</div>
+<div>
+<div align="center">
+    <sup>1</sup>The University of Hong Kong&emsp;
+    <sup>2</sup>Peking University&emsp;
+    <sup>3</sup>UCSD
+</div>
+<div align="center">
+    <sup>*</sup>Equal Contribution
+</div>
