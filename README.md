@@ -33,5 +33,6 @@
     <sup>*</sup><small>Equal Contribution</small>
 </div>
 
-
+# Video-T3
 This repo contains official implementation of our paper "Temporal Reasoning Transfer from Text to Video"
+![](./assets/teaser.png)
