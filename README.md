@@ -30,5 +30,6 @@
     <sup>3</sup>UCSD
 </div>
 <div align="center">
-    <sup>*</sup><span style="font-size: smaller;">Equal Contribution</span>
+    <sup>*</sup><small>Equal Contribution</small>
 </div>
+
