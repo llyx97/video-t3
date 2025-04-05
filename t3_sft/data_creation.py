@@ -1,18 +1,18 @@
 import json
 import os
 import random
-from transformers import AutoTokenizer
 import matplotlib.pyplot as plt
+from transformers import AutoTokenizer
 
-# LLAVA PATH
-llava_next_path = "data/llava-next/open-llava-next_instruct_mix1M.json"
+# LLAVA PATH: download from https://huggingface.co/datasets/Lin-Chen/Open-LLaVA-NeXT-mix1M
+llava_next_path = "open-llava-next_instruct_mix1M.json"
 
-# textual temporal data dir: download from https://huggingface.co/datasets/MMInstruction/Textual-Temporal
-textual_tempooral_data_path = "/home/lilei/TempCompass/vript_data/"
+# textual temporal data dir: download from https://huggingface.co/datasets/MMInstruction/Video-T3-QA
+textual_tempooral_data_path = "DIR_TO_VIDEO_T3_QA"
 # DIR to save the synthesized dataset
-save_dir = "data/llava-next"
-# PATH to hotpot QA
-hotpot_qa_path = "/home/lilei/TempCompass/hotpot_train_v1.1.json"
+save_dir = "DIR_TO_SAVE"
+# PATH to hotpot QA, for comparasion
+hotpot_qa_path = "DIR_TO_HOTPOT_QA/hotpot_train_v1.1.json"
 
 
 # Hotpot QA for comparasion
@@ -75,7 +75,7 @@ def convert_hotpot_qa(
     return llava_format, human_texts, answer_texts
 
 
-# lengh check
+# length check
 def plot_text_length_distrbution(
     human_texts, answer_texts, dataset_name, tokenizer=None
 ):
@@ -153,13 +153,15 @@ if __name__ == "__main__":
     # )
     data = {}
 
-    # load llava-next data 
+    # load llava-next data
     with open(llava_next_path, "r") as f:
         data["llava_next"] = json.load(f)
         # data["llava_next"] =  [ d for d in llava_next_data if not no_image(d)]
         random.shuffle(data["llava_next"])
 
     print("Total llava next data: ", len(data["llava_next"]))
+
+
     data_dict = {
         # "caporder_random_train": caporder_random_train,
         # "caporder_gpt_train": caporder_gpt_train,
@@ -236,7 +238,7 @@ if __name__ == "__main__":
         return (
             "image" not in instance
             or instance["image"] == ""
-            or instance["image"] == None
+            or instance["image"] is None
         )
 
     # # load llava next data

@@ -7,14 +7,12 @@ do_train: true
 finetuning_type: full 
 deepspeed: examples/deepspeed/ds_z2_config.json 
 freeze_vision_tower: true 
-# ds_z2_offload_config.json
 
 ### dataset
 dataset: T3-66kk-VRatio2.0
 template: qwen2_vl
 cutoff_len: 8192   
 max_samples: 75_000 # 
-# max_
 overwrite_cache: true
 preprocessing_num_workers: 32 
 # buffer_size: 256

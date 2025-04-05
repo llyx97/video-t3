@@ -2,8 +2,7 @@ export SIZE_FACTOR=8
 export MAX_PIXELS=401408  #602112  = 768 * 28 * 28 
 export NPROC_PER_NODE=8 
 RATIO=${1:-"VideoOnly"}
-# export FILE_NAME="video${SUFFIX}+T3LRatio2-${SUFFIX}.noimage.valid.ms.jsonl" 
-export FILE_NAME="T366K+VRatio${RATIO}.noimage.valid.ms.jsonl" 
+
 export FILE_NAME="T366K+VRatio2.0.noimage.valid.ms.videoOnly.jsonl"
 
 export DATA_DIR="/home/lilei/LLaMA-Factory/converted_data/"
