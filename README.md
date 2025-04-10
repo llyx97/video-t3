@@ -45,7 +45,7 @@ Please refer to `./probing` for details.
 
 ## SFT Data Preparation 
 
-For LongVA experiments, we mix the [Open-LLaVA-NeXT dataset](https://huggingface.co/datasets/Lin-Chen/Open-LLaVA-NeXT-mix1M) with our [T3 dataset](). The data mixing process is implemented in `t3_sft/data_creation.py`. The script handles:
+For LongVA experiments, we mix the [Open-LLaVA-NeXT dataset](https://huggingface.co/datasets/Lin-Chen/Open-LLaVA-NeXT-mix1M) with our [T3 dataset](https://huggingface.co/datasets/MMInstruction/Video-T3-QA). The data mixing process is implemented in `t3_sft/data_creation.py`. The script handles:
 
 - Loading and processing Open-LLaVA-NeXT data
 - Loading our Video T3 dataset containing various aspects
